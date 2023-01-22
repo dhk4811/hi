@@ -1,0 +1,15 @@
+
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+  grid-gap: 1em;
+}
+
+.square {
+  aspect-ratio: 1 / 1;
+  background-color: rgb(249, 105, 105);
+}
+
+.rotate:hover {
+  transform: rotate(45deg);
+}
